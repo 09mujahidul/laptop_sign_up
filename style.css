@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: rgb(78, 198, 150);
+    height: 740px;
+    width: 1480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
+}
+.nav{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url("./mujahid-photo-1.jpg");
+    background-size: cover;
+
+}
+h1{
+    text-transform: uppercase;
+    margin: 20px;
+    color: rgb(11, 73, 181);
+}
+span{
+    color: red;
+}
+input{
+    height: 30px;
+    width: 260px;
+    border: 1px solid white;
+    border-bottom: 2px solid blue;
+    background-color: rgb(36, 14, 14);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+p{
+    margin: 20px;
+    color: white;
+}
